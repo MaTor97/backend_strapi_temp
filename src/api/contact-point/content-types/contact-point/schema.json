@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contact_points",
+  "info": {
+    "singularName": "contact-point",
+    "pluralName": "contact-points",
+    "displayName": "contact-point"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "adress": {
+      "type": "string"
+    },
+    "telephone": {
+      "type": "biginteger"
+    },
+    "email": {
+      "type": "email"
+    },
+    "horaire": {
+      "type": "blocks"
+    }
+  }
+}
